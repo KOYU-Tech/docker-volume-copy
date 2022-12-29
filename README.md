@@ -20,7 +20,7 @@ docker volume ls
 
 **Step 3**
 
-Imagine a new volume name and use it with script
+Come up with a new volume name and use it with the script:
 
 ```
 ./dvc.sh old-volume-name new-volume-name-that-better-than-previous
