@@ -1,5 +1,7 @@
 # Docker Volume Copy
 
+**Last time test: Docker version 23.0.0 (build e92dd87) 25/03/2023**
+
 Bash script that allows to make a copy of exists volume to new one with a new name.
 
 **Step 1**
