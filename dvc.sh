@@ -50,7 +50,7 @@ if [[ "$?" -eq 0 ]]; then
 fi
 
 # most important part, data migration
-docker run --rm --volume ${OLD_VOLUME_NAME}:/source --volume ${NEW_VOLUME_NAME}:/destination ubuntu:latest bash -c "echo 'copying volume ...'; cp -R /source/* /destination/"
+docker run --rm --volume ${OLD_VOLUME_NAME}:/source --volume ${NEW_VOLUME_NAME}:/destination bash:latest bash -c "echo 'copying volume ...'; cp -R /source/* /destination/"
 
 if [[ "$?" -eq 0 ]]; then
     echo "Done successfuly 🎉"
